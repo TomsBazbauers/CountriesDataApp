@@ -38,7 +38,7 @@ https://github.com/TomsBazbauers/CountriesDataApp
 CountriesDataApp.sln
 ```
 
-3. Check if there are no errors, and if there are any, it might be due to missing packages:
+3. If there are some errors, it might be due to missing packages:
 
 ```
 Refit(6.3.2) or Refit.HttpClientFactory(6.3.2) or AutoMapper(12.0.0) or Newtonsoft.Json(13.0.2)
@@ -76,7 +76,13 @@ Get Top 10 EU countries by population density: 'Try it out' > byDensity set 'TRU
 ```
 
 ### How to run tests:
-- Open the test menu, click **Run All Tests**:
+
+1. If there are some errors, it might be due to missing packages:
+
+```
+xunit(2.4.1) or xunit.runner.visualstudio(2.4.3) or Moq(4.18.3) or FluentAssertions(6.8.0)
+```
+- Open the *Test* menu, click **Run All Tests**:
 
 ![RunAllTests](https://user-images.githubusercontent.com/104777985/205559002-16497cb9-c733-4a6f-8607-4b233a663b64.png)
 
