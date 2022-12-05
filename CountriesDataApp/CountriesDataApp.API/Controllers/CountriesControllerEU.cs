@@ -33,6 +33,7 @@ namespace CountriesDataApp.API.Controllers
             return request.Any()
                 ? Ok(request)
                 : StatusCode(503, "Service unavailable.Try later..");
+                // StatusCode is open for discussion about 404 instead of 503;
         }
 
         [HttpGet, Route("{name}")]
